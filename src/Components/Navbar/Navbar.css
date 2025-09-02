@@ -1,0 +1,124 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@400;600&display=swap');
+
+
+nav {
+  background: linear-gradient(135deg, #3E6A5B, #4A90E2); 
+  padding: 0.8rem 2rem;  
+  font-family: 'Lato', sans-serif; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  position: sticky; 
+  top: 0; 
+  z-index: 1000; 
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;  
+}
+
+
+.navbar li {
+  position: relative;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #F5F5F5; 
+  padding: 0.6rem 1.2rem; 
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 400; 
+  letter-spacing: 0.6px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  font-family: 'Lato', sans-serif; 
+}
+
+.navbar > li > a:hover {
+  background-color: #2F5D52; 
+  color: #FFD700;
+  transform: translateY(-2px);
+}
+
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #2D3C44; 
+  min-width: 200px;
+  border-radius: 6px;
+  display: none;
+  z-index: 1000;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  opacity: 1;
+}
+
+.dropdown-menu li {
+  position: relative;
+}
+
+.dropdown-submenu-menu {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background-color: #3A4F55; 
+  min-width: 200px;
+  display: none;
+  border-radius: 6px;
+}
+
+.dropdown-submenu:hover .dropdown-submenu-menu {
+  display: block;
+}
+
+.dropdown-menu a:hover,
+.dropdown-submenu-menu a:hover {
+  background-color: #2F5D52; 
+  color: #FFD700;
+}
+
+.dropdown-submenu > a::after {
+  content: '▸';
+  float: right;
+  margin-left: 10px;
+  color: #B8B8B8; 
+}
+
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem 1rem;
+  }
+
+  .dropdown-menu,
+  .dropdown-submenu-menu {
+    position: relative;
+    display: block;
+    box-shadow: none;
+  }
+
+  .navbar a {
+    padding: 0.8rem;
+    font-size: 1.2rem; 
+  }
+}

@@ -1,0 +1,239 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.Education-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #e3f2fd, #fce4ec);
+  min-height: 100vh;
+}
+
+
+.Education-container h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.8rem;
+  color: #2E7D32;
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: 600;
+  position: relative;
+}
+
+.Education-container h1::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #4A90E2;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+
+.education-item {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(8px);
+  border-radius: 12px;
+  padding: 30px;
+  max-width: 800px;
+  width: 100%;
+  margin: 15px 0;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.education-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+
+.education-item h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  color: #2E7D32;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+
+.education-item p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 8px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.education-item:last-child {
+  background: #E0F7FA; 
+  border-radius: 12px;
+  padding: 25px;
+  margin-top: 40px;
+}
+
+
+@media (max-width: 768px) {
+  .Education-container {
+    padding: 30px 10px;
+  }
+
+  .education-item {
+    padding: 20px;
+  }
+
+  .education-item h2 {
+    font-size: 1.6rem;
+  }
+
+  .education-item p {
+    font-size: 1rem;
+  }
+}
+
+.Education-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 60px 30px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  color: #2e7d32;
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: 4px solid #4caf50;
+  padding-bottom: 10px;
+}
+
+
+.education-item {
+  background-color: #ffffff;
+  padding: 25px 30px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+
+.education-item:hover {
+  transform: translateY(-10px); 
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+}
+
+
+.education-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 100%;
+  background: linear-gradient(45deg, #4caf50, #1976d2); 
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  z-index: 1;
+}
+
+.education-item h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.2rem;
+  color: #2e7d32;
+  margin-bottom: 15px;
+  font-weight: 700;
+  text-transform: capitalize;
+  z-index: 2;
+}
+
+
+.education-item p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 12px;
+  font-weight: 500;
+  line-height: 1.7;
+  position: relative;
+  z-index: 2;
+  padding-left: 40px;  
+}
+
+
+.education-item p::before {
+  content: "📚"; 
+  left: 10px;
+  top: 0;
+  font-size: 1.3rem;
+  color: #1976d2;
+}
+
+
+.education-item p:hover {
+  background-color: #e8f5e9; 
+  transform: translateX(5px); 
+  padding-left: 35px; 
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+
+.education-item .btn {
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #1976d2;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: 500;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.education-item .btn:hover {
+  background-color: #1565c0;
+  transform: scale(1.05);
+}
+
+
+@media (max-width: 768px) {
+  .Education-container {
+    padding: 40px 15px;
+  }
+
+  .education-item {
+    padding: 20px 25px;
+  }
+
+  .education-item h2 {
+    font-size: 1.8rem;
+  }
+
+  .education-item p {
+    font-size: 1rem;
+  }
+
+  .education-item .btn {
+    padding: 8px 20px;
+  }
+}

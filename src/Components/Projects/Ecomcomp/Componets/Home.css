@@ -1,0 +1,53 @@
+.hero-section {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .hero-img {
+    width: 100%;
+    height: auto;
+  }
+  .hero-text {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .shop-now-btn {
+    display: inline-block;
+    background: orange;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  .category-preview {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  .category-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .category-card {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    background: #f9f9f9;
+  }
+  .home-footer {
+    text-align: center;
+    padding: 20px;
+    background: #eee;
+    font-weight: bold;
+  }
+  
