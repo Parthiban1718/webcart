@@ -21,9 +21,6 @@ import Fashion from "./Components/Projects/Ecomcomp/Componets/Fashion";
 import Payment from "./Components/Projects/Ecomcomp/Componets/Payment";
 import Customer from "./Components/Projects/Ecomcomp/Componets/Customer";
 
-
-
-
 function App() {
   const [headercount, setheadercount] = useState(0);
   const [popupstatus, setpopupstatus] = useState(false);
@@ -33,8 +30,7 @@ function App() {
   }
 
   return (
-   
-    <Router>
+    <Router basename="/webcart">
       <Routes>
         {/* General Pages */}
         <Route path="/" element={<Home />} />
@@ -44,18 +40,17 @@ function App() {
         <Route path="/Formpage" element={<FormLogin />} />
         <Route path="/Calculator" element={<Calculator />} />
         <Route path="/Contact" element={<Contact />} />
-       <Route path="/Game" element={<Game/>}/>
+        <Route path="/Game" element={<Game />} />
 
         {/* E-commerce Sections */}
-        <Route path="/Home" elemen={<Home/>}/>
+        <Route path="/Home" element={<Home />} />
         <Route path="/Fruits" element={<Fruits />} />
         <Route path="/Vegetables" element={<Vegetables />} />
         <Route path="/Electronic" element={<Electronic />} />
         <Route path="/Fashion" element={<Fashion />} />
         <Route path="/payment" element={<Payment />} />
         <Route path="/Customer & Services" element={<Customer />} />
-        
-       
+
         {/* Full Template Page */}
         <Route
           path="/Template"
@@ -71,15 +66,10 @@ function App() {
         {/* Header Preview Route */}
         <Route
           path="/Header"
-          element={
-            <Header headercount={headercount} showPopup={setpopupstatus} />
-          }
-          
+          element={<Header headercount={headercount} showPopup={setpopupstatus} />}
         />
-        
       </Routes>
     </Router>
-
   );
 }
 
