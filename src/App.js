@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import React, { useState } from "react";
 
 // General Pages
@@ -30,7 +30,7 @@ function App() {
   }
 
   return (
-    <Router basename="/webcart">
+    <Router>
       <Routes>
         {/* General Pages */}
         <Route path="/" element={<Home />} />
