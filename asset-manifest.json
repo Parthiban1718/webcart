@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/webcart/static/css/main.4a4d35b4.css",
-    "main.js": "/webcart/static/js/main.6b894260.js",
+    "main.js": "/webcart/static/js/main.e1e738e4.js",
     "static/media/pom.png": "/webcart/static/media/pom.5044fbba4d67316b83fe.png",
     "static/media/pinksaree.jpg": "/webcart/static/media/pinksaree.ee090f9565e1c53ef048.jpg",
     "static/media/dargon.jpg": "/webcart/static/media/dargon.d02a7b4072ed054d3ddd.jpg",
@@ -34,10 +34,10 @@
     "static/media/bootlegourd.jpg": "/webcart/static/media/bootlegourd.dbdb92dbd3caddb4ad0b.jpg",
     "index.html": "/webcart/index.html",
     "main.4a4d35b4.css.map": "/webcart/static/css/main.4a4d35b4.css.map",
-    "main.6b894260.js.map": "/webcart/static/js/main.6b894260.js.map"
+    "main.e1e738e4.js.map": "/webcart/static/js/main.e1e738e4.js.map"
   },
   "entrypoints": [
     "static/css/main.4a4d35b4.css",
-    "static/js/main.6b894260.js"
+    "static/js/main.e1e738e4.js"
   ]
 }
