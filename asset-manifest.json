@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/webcart/static/css/main.4a4d35b4.css",
+    "main.js": "/webcart/static/js/main.6b894260.js",
+    "static/media/pom.png": "/webcart/static/media/pom.5044fbba4d67316b83fe.png",
+    "static/media/pinksaree.jpg": "/webcart/static/media/pinksaree.ee090f9565e1c53ef048.jpg",
+    "static/media/dargon.jpg": "/webcart/static/media/dargon.d02a7b4072ed054d3ddd.jpg",
+    "static/media/cauli.png": "/webcart/static/media/cauli.639c22fc7e7dee484d69.png",
+    "static/media/asusmodelb.jpg": "/webcart/static/media/asusmodelb.ef15a665e5d636b7515b.jpg",
+    "static/media/yellowsaree.jpg": "/webcart/static/media/yellowsaree.2f1c862fa26cc2fe7cf3.jpg",
+    "static/media/carrot.jpg": "/webcart/static/media/carrot.fcdc9bf6b1a1788ca1fe.jpg",
+    "static/media/brownsaree.jpg": "/webcart/static/media/brownsaree.5ef860ab76b99664c872.jpg",
+    "static/media/asusmodeld.jpg": "/webcart/static/media/asusmodeld.f275abbace77debdda6a.jpg",
+    "static/media/photo.jpg": "/webcart/static/media/photo.1bdaf6deeb4be51a1317.jpg",
+    "static/media/bluepant.png": "/webcart/static/media/bluepant.9a035ff8615fa4064db4.png",
+    "static/media/dellmodelc.webp": "/webcart/static/media/dellmodelc.650e60ac48b7c2e8190d.webp",
+    "static/media/apple.jpg": "/webcart/static/media/apple.f6848f5de55ea9a13298.jpg",
+    "static/media/pineapple.jpeg": "/webcart/static/media/pineapple.23d1250a936b9047e4fa.jpeg",
+    "static/media/redsaree.jpg": "/webcart/static/media/redsaree.667c3c496ffcc654db98.jpg",
+    "static/media/hpmodelb.jpg": "/webcart/static/media/hpmodelb.92ace156f04ee3f8df97.jpg",
+    "static/media/greenshirt.jpg": "/webcart/static/media/greenshirt.0707b1f52d947249dcaf.jpg",
+    "static/media/purplefrock.webp": "/webcart/static/media/purplefrock.7636599f4864c04ce3f4.webp",
+    "static/media/logo.jpg": "/webcart/static/media/logo.3e35f020f8c5389639b9.jpg",
+    "static/media/pinkfrock.jpg": "/webcart/static/media/pinkfrock.4b6079536250a24ab8e2.jpg",
+    "static/media/applemodelb.jpg": "/webcart/static/media/applemodelb.851efc3da8b3a135ff34.jpg",
+    "static/media/avocade.jpg": "/webcart/static/media/avocade.c91d2de14c7ad208dce8.jpg",
+    "static/media/jerseytshirt.jpg": "/webcart/static/media/jerseytshirt.6d4b39af783f431919fd.jpg",
+    "static/media/watermelon.jpeg": "/webcart/static/media/watermelon.f893c99992bb7491bfe0.jpeg",
+    "static/media/hpmodelc.jpg": "/webcart/static/media/hpmodelc.ef826e053e72098bedc9.jpg",
+    "static/media/guvava.webp": "/webcart/static/media/guvava.6f0467d49363bee814c5.webp",
+    "static/media/blacksaree.avif": "/webcart/static/media/blacksaree.9f392eec93485983dba4.avif",
+    "static/media/ladyfinger.webp": "/webcart/static/media/ladyfinger.5bee581011e96a722a60.webp",
+    "static/media/hpmodeld.avif": "/webcart/static/media/hpmodeld.3b68623c3e6e59c19578.avif",
+    "static/media/bootlegourd.jpg": "/webcart/static/media/bootlegourd.dbdb92dbd3caddb4ad0b.jpg",
+    "index.html": "/webcart/index.html",
+    "main.4a4d35b4.css.map": "/webcart/static/css/main.4a4d35b4.css.map",
+    "main.6b894260.js.map": "/webcart/static/js/main.6b894260.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a4d35b4.css",
+    "static/js/main.6b894260.js"
+  ]
+}
