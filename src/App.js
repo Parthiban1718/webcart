@@ -1,4 +1,4 @@
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes, Link } from "react-router-dom";
 import React, { useState } from "react";
 
 // General Pages
@@ -32,24 +32,23 @@ function App() {
   return (
     <Router>
       <Routes>
-        {/* General Pages */}
-        <Route path="/" element={<Home />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/Education" element={<Education />} />
-        <Route path="/Projects" element={<Projects />} />
-        <Route path="/Formpage" element={<FormLogin />} />
-        <Route path="/Calculator" element={<Calculator />} />
-        <Route path="/Contact" element={<Contact />} />
-        <Route path="/Game" element={<Game />} />
+ <Link to="/">Home</Link>
+  <Link to="/About">About</Link>
+  <Link to="/Education">Education</Link>
+  <Link to="/Projects">Projects</Link>
+  <Link to="/Calculator">Calculator</Link>
+  <Link to="/Formpage">Form</Link>
+  <Link to="/Contact">Contact</Link>
+  <Link to="/Game">Game</Link>
+
 
         {/* E-commerce Sections */}
-        <Route path="/Home" element={<Home />} />
-        <Route path="/Fruits" element={<Fruits />} />
-        <Route path="/Vegetables" element={<Vegetables />} />
-        <Route path="/Electronic" element={<Electronic />} />
-        <Route path="/Fashion" element={<Fashion />} />
-        <Route path="/payment" element={<Payment />} />
-        <Route path="/Customer & Services" element={<Customer />} />
+  <Link to="/Fruits">Fruits</Link>
+  <Link to="/Vegetables">Vegetables</Link>
+  <Link to="/Electronic">Electronic</Link>
+  <Link to="/Fashion">Fashion</Link>
+  <Link to="/payment">Payment</Link>
+  <Link to="/Customer-Service">Customer Service</Link>
 
         {/* Full Template Page */}
         <Route
