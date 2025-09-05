@@ -11,9 +11,10 @@ function About (){
         <p className="tagline">Aspiring Full Stack Developer | Quick Learner | Problem Solver</p>
 
         <div className="about-details">
-          <p>
-            Hello! I'm <strong>Parthiban V</strong>, a passionate and dedicated fresher eager to start my journey as a <strong>Full Stack Developer</strong>.
-            I have hands-on experience building projects using <strong>HTML, CSS, JavaScript, React .js,Java,Spring Boot FrameWork, REST APIs, SQL</strong>, and I’m continuously learning more.
+         <p>
+         Hello! I'm <strong>Parthiban V</strong>, a passionate and dedicated fresher eager to begin my journey as a <strong>Full Stack Developer</strong>. 
+         I have hands-on experience building projects using <strong>HTML, CSS, JavaScript, React.js, Java, Spring Boot, RESTful APIs, and MySQL</strong>. 
+         I’m continuously learning and improving my skills to stay up-to-date with modern development practices.
           </p>
 
           <p>
@@ -29,10 +30,10 @@ function About (){
         <div className="skills-box">
           <h3>My Skills</h3>
           <ul>
-            <li>✅ Frontend: HTML, CSS, JavaScript, React</li>
-            <li>✅ Backend: Java,SpringBoot</li>
+            <li>✅ Frontend: HTML, CSS,Bootstrap,JavaScript, React.js,Axios (API calls) </li>
+            <li>✅ Backend: Java,SpringBoot, REST APIs</li>
             <li>✅ Database:  MySQL</li>
-            <li>✅ Tools: Git, VS Code, Postman</li>
+            <li>✅ Tools: Github, VS Code, Postman</li>
           </ul>
         </div>
       </div>

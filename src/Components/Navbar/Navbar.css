@@ -1,13 +1,10 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@400;600&display=swap');
-
 
 nav {
   background: linear-gradient(135deg, #3E6A5B, #4A90E2); 
@@ -28,11 +25,11 @@ nav {
   justify-content: space-evenly;  
 }
 
-
 .navbar li {
   position: relative;
 }
 
+/* Styles for links */
 .navbar a {
   text-decoration: none;
   color: #F5F5F5; 
@@ -52,7 +49,30 @@ nav {
   transform: translateY(-2px);
 }
 
+/* Styles for clickable span toggles (dropdown, submenu) */
+.dropdown-toggle,
+.dropdown-submenu > span {
+  cursor: pointer;
+  color: #F5F5F5;
+  padding: 0.6rem 1.2rem;
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  font-family: 'Lato', sans-serif;
+  user-select: none;
+}
 
+.dropdown-toggle:hover,
+.dropdown-submenu > span:hover {
+  background-color: #2F5D52;
+  color: #FFD700;
+  transform: translateY(-2px);
+}
+
+/* Dropdown menu */
 .dropdown-menu {
   position: absolute;
   top: 100%;
@@ -66,6 +86,7 @@ nav {
   transition: opacity 0.3s ease-in-out;
 }
 
+/* Show dropdown menu on hover of parent */
 .dropdown:hover .dropdown-menu {
   display: block;
   opacity: 1;
@@ -75,6 +96,7 @@ nav {
   position: relative;
 }
 
+/* Submenu styling */
 .dropdown-submenu-menu {
   position: absolute;
   top: 0;
@@ -85,16 +107,19 @@ nav {
   border-radius: 6px;
 }
 
+/* Show submenu on hover */
 .dropdown-submenu:hover .dropdown-submenu-menu {
   display: block;
 }
 
+/* Hover effects on links inside dropdowns */
 .dropdown-menu a:hover,
 .dropdown-submenu-menu a:hover {
   background-color: #2F5D52; 
   color: #FFD700;
 }
 
+/* Arrow icon on submenu links (originally on <a>, you can remove if you replaced with <span>) */
 .dropdown-submenu > a::after {
   content: '▸';
   float: right;
@@ -102,7 +127,7 @@ nav {
   color: #B8B8B8; 
 }
 
-
+/* Responsive styles for mobile */
 @media screen and (max-width: 768px) {
   .navbar {
     flex-direction: column;
@@ -117,7 +142,9 @@ nav {
     box-shadow: none;
   }
 
-  .navbar a {
+  .navbar a,
+  .dropdown-toggle,
+  .dropdown-submenu > span {
     padding: 0.8rem;
     font-size: 1.2rem; 
   }
