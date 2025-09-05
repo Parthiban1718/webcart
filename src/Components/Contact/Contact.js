@@ -18,7 +18,7 @@ function Contact (){
 
       <div className="contact-actions">
         <a
-          href="/Parthiban_Resume.pdf"
+          href={`${process.env.PUBLIC_URL}/Parthiban_Resume.pdf`}
           download
           className="download-btn"
         >
